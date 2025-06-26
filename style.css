@@ -1,0 +1,46 @@
+div {
+  display: inline-block;
+}
+button {
+  border-radius: 7px;
+  background-color: lightgray;
+  color: black;
+  transition: background-color 0.3s ease, color 0.5s ease, transform 0.3s ease;
+  padding: 7px 15px;
+  font-size: 16px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: darkgray;
+  color: white;
+  transform: scale(1.1);
+}
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  padding: 30px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  align-items: flex-end;  
+  
+
+
+}
+
+#container div {
+  width: 40px;
+  height: 40px;
+  background-color: lightblue;
+  line-height: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
